@@ -1,0 +1,22 @@
+{
+  "name": "onebox-ssl-repro",
+  "version": "1.0.0",
+  "description": "onebox SSL issue repro",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogazitt/onebox-ssl-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogazitt/onebox-ssl-repro/issues"
+  },
+  "homepage": "https://github.com/ogazitt/onebox-ssl-repro#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
