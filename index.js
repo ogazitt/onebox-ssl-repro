@@ -1,7 +1,9 @@
 const axios = require('axios');
 
-const authorizerService = 'localhost:8383';
+const authorizerService = process.env.HOST || 'localhost:8383';
 const authorizerUrl = `https://${authorizerService}/api/v1/edge/accessmap`;
+
+console.log(`AccessMap endpoint: ${authorizerUrl}`);
 
 (async () => {
   try {
